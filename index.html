@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synyak</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">SYNYAK</div>
+       
+           <nav>
+            <ul>
+                <li><a class="mobile" href="#home">HOME</a></li>
+                <li><a class="mobile" href="#blog">BLOG</a></li>
+                <li><a class="mobile" href="#about">ABOUT</a></li>
+                <li><a class="mobile" href="#solution">SOLUTION</a></li>
+				 <li><a class="open-menu" onclick="toggleSidebar()">
+				 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+				 </a></li>
+            </ul>
+			
+			<ul class="sidebar">
+			     <li><a class="close-menu" onclick="toggleSidebar()">
+				 <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+				 </a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#solution">SOLUTION</a></li>
+            </ul>
+        </nav>
+       <!--
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Solution</a></li>
+            </ul>
+        </nav>
+        -->
+    </header>
+    <main>
+      <section class="banner" id="home">
+          <div class="forme1">
+          <div class="text1 text10">
+            <h3>FLY BEYOND LIMITS</h3>
+            <h1>SEE THE WORLD FROM</h1>
+            <h2>A NEW HEIGHT</h2>
+            <p>Synyak is the leading provider of web data. It converts a massive amount of online data from the open and dark webs into feeds, ready to consume.</p>
+            <div class="buttons">
+                <button class="button1">Explore Now</button>
+                <button class="button2">Learn More</button>
+            </div>
+            </div>
+            </div>
+            <form class="info-form">
+                <h2>Information</h2>
+                <div class="name1">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                </div>
+                <div class="email1">
+                <input type="email" placeholder="Business Email">
+                <input type="tel" placeholder="Phone Number">
+                </div>
+                <input type="text" placeholder="Company/Organization">
+                <button type="submit">Submit Request</button>
+            </form>
+      </section>
+<!-- WHY CHOOSE US -->
+      <section class="why-choose-us">
+          <img src="sec2.png" alt="synyak" class="sec21">
+         <div class="container">
+           <div class="heading">WHY CHOOSE US</div>
+                <div class="main-title">WE PROVIDE BEST FACILITIES TO MEET YOUR DREAM</div>
+                <div class="subheading">We have a lot of skills in cyber security. We have a group of fighters who are always working on cyber security.</div>
+                <div class="section">
+                <div>
+                <div class="section-title"><h1>Trusted Organizations</h1>
+                <div class="bullet-points">
+                    <p>567+ Website Protection</p>
+                    <p>0% interest rate</p>
+                </div>
+               </div>
+               </div>
+               <div>
+                <div class="section-title"><h1>Innovative Technology</h1>
+                <div class="bullet-points">
+                    <p>Threat Intelligence</p>
+                    <p>Live Threat Map</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="more1">
+        <button class="read-more">Read More</button>
+        <div class="contact">
+            <p>Need help?</p>
+            <p>(212) 537 203 977</p>
+        </div>
+       </div>
+      </section>  
+<!--solution-->
+      <section class="solutions" id="solution">
+       <div class="solution-title">
+        <h1>SOLUTIONS</h1>
+        <h2>YOU CAN ENSURE YOUR ORGANIZATION'S <br> CYBERSECURITY BY USING OUR<br> SOLUTIONS.</h2>
+       </div>
+        <div class="solutions-grid">
+            <div class="solution-card">
+                <img src="data-breach.png" alt="Data Breach">
+              <div class="card-content">
+                <h3>Data Breach</h3>
+                <p>Data breaches are on the rise! Major security breaches have compromised more than 1 billion users' data.</p>
+                <a href="#" class="arrow">➜</a>
+              </div>
+            </div>
+
+            <div class="solution-card">
+                <img src="dark-web.png" alt="Dark Web">
+              <div class="card-content">
+                <h3>Dark Web</h3>
+                <p>Welcome to the Dark Web, a subset of the internet that you can only access using special software.</p>
+                <a href="#" class="arrow">➜</a>
+              </div>
+            </div>
+
+            <div class="solution-card">
+                <img src="spam-domain.png" alt="Spam Domain">
+              <div class="card-content">
+                <h3>Spam Domain</h3>
+                <p>Domain hijacking and spam have become a major problem, costing companies billions of dollars every year.</p>
+                <a href="#" class="arrow">➜</a>
+              </div>
+            </div>
+
+            <div class="solution-card">
+                <img src="cyber-attacks.png" alt="Live Cyber Attacks">
+              <div class="card-content">
+                <h3>Live Cyber Attacks</h3>
+                <p>Cyber attacks are on the rise and have become a global issue. Ransomware attacks are increasing.</p>
+                <a href="#" class="arrow">➜</a>
+              </div>
+            </div>
+        </div>
+      </section>
+  <!-- article -->
+      <section class="articles-section">
+        <div class="section-title2">
+          <h3>🔥 ARTICLES</h3>
+          <h2>LATEST ARTICLES FROM <span class="brand-name">SYNYAK</span></h2></div>
+        <div class="articles-container">
+            <div class="article">
+                <img src="cyber-security.jpg" alt="Cyber Security">
+               <div class="card-article2">
+                <h3 class="article-info">Cyber security <span class="bold-text">News</span></h3>
+                    <button class="read-more2">→</button>
+                </div>
+            </div>
+            <div class="article">
+                <img src="night-hunters.jpg" alt="data-breach">
+              <div class="card-article2">
+                <h3 class="article-info">Night <span class="bold-text">hunters</span></h3>
+                    <button class="read-more2">→</button>
+                </div>
+            </div>
+            <div class="article">
+                <img src="phishing.jpg" alt="Phishing">
+             <div class="card-article2">
+                <h3 class="article-info">Surge in <span class="bold-text">phishing</span></h3>
+                    <button class="read-more2">→</button>
+             </div>
+            </div>
+        </div>
+      </section>
+<!-- ressources -->
+      <section class="ressources">
+       <div class="power">
+         <div class="power-title">
+           <h3>Ressources</h3>
+           <h2><span class="highlight">Power up,</span> protect, and<br>
+                Future-proof your<br>
+                Organization with <span class="highlight">SYNYAK</span></h2>
+         </div>
+         <div class="power-card">
+           <div class="card11">
+             <img src="" alt="">
+             <h2>Webinars</h2>
+             <p>Faites glisser des éléments du presse-papiers pour les supprimer</p>
+           </div>
+           <div class="card11">
+             <img src="" alt="">
+             <h2>Customer Stories"</h2>
+             <p>Faites glisser des éléments du presse-papiers pour les supprimer</p>
+           </div>
+           <div class="card11">
+             <img src="" alt="">
+             <h2>SOLUTION Briefs</h2>
+             <p>Faites glisser des éléments du presse-papiers pour les supprimer</p>
+           </div>
+           <div class="card11">
+             <img src="" alt="">
+             <h2>Reports</h2>
+             <p>Faites glisser des éléments du presse-papiers pour les supprimer</p>
+           </div>
+         </div>
+       </div>
+       <div class="power-img">
+         <img src="power.png" alt="power">
+       </div>
+      </section>
+<!-- customer -->
+      <section class="happy-customers">
+       <h3>HAPPY CUSTOMERS</h3>
+       <h2>Satisfaction By Our Happy Clients</h2>
+       <div class="customers-img">
+        <img src="happycustom1.png" alt="">
+        <img src="customers1.png" alt="">
+        <img src="customers2.png" alt="">
+        <img src="customers3.png" alt="">
+       </div>
+      </section>
+ <!-- blog -->
+      <section class="recent-blog" id="blog">
+       <h3>Recent Blogs</h3>
+       <h2>REAT OUT OUR RECENT BLOG POSTS TO STAY UPDATED</h2>
+       <div class="blog-div">
+          <div class="card-blog">
+             <img src="cyber-security.jpg" alt="">
+             <div class="date-admin">
+               <div class="date-blog">
+                <!--<p><i class="fa-solid fa-calendar-days"></i></p>-->
+                 <h5>📅 15/02/2025</h5>
+               </div>
+               <div class="admin-blog">
+                <!-- <p><i class="fa-solid fa-user-tie"></i></p>-->
+                 <h5>👤 by admin</h5>
+               </div>
+             </div>
+             <h2>Top 10 Breach And Attack Simulation (BAS) Software in 2024</h2>
+             <p>Lorem ipsum is simply dummy text the printing and typese lorem ipsum</p>
+             <a href="#">Read More --></a>
+          </div>
+          <div class="card-blog">
+             <img src="cyber-security.jpg" alt="">
+             <div class="date-admin">
+               <div class="date-blog">
+                <!--<p><i class="fa-solid fa-calendar-days"></i></p>-->
+                 <h5>📅 15/02/2025</h5>
+               </div>
+               <div class="admin-blog">
+                <!-- <p><i class="fa-solid fa-user-tie"></i></p>-->
+                 <h5>👤 by admin</h5>
+               </div>
+             </div>
+             <h2>Top 10 Breach And Attack Simulation (BAS) Software in 2024</h2>
+             <p>Lorem ipsum is simply dummy text the printing and typese lorem ipsum</p>
+             <a href="#">Read More --></a>
+          </div>
+          <div class="card-blog">
+             <img src="cyber-security.jpg" alt="">
+             <div class="date-admin">
+               <div class="date-blog">
+                <!--<p><i class="fa-solid fa-calendar-days"></i></p>-->
+                 <h5>📅 15/02/2025</h5>
+               </div>
+               <div class="admin-blog">
+                <!-- <p><i class="fa-solid fa-user-tie"></i></p>-->
+                 <h5>👤 by admin</h5>
+               </div>
+             </div>
+             <h2>Top 10 Breach And Attack Simulation (BAS) Software in 2024</h2>
+             <p>Lorem ipsum is simply dummy text the printing and typese lorem ipsum</p>
+             <a href="#">Read More --></a>
+          </div>
+        </div>
+      </section>
+ <!-- faQ -->
+      <section class="faq-section" id="about">
+         <div class="title-faq">
+                <h3 class="faq-title"> <i class="fas fa-question-circle"></i> FAQ</h3>
+                <h2 class="faq-heading">WANT TO KNOW MORE ABOUT US?</h2>
+         </div>
+         <div class="faq-container">
+            <div class="faq-content">
+                
+                <div class="faq-box">
+                    <div class="faq-question">
+                        <h4>Where Wanderlust Meets Reality?</h4>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <p class="faq-answer">Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum.</p>
+                </div>
+
+                <div class="faq-box">
+                    <div class="faq-question">
+                        <h4>Lorem Ipsum is simply dummy text the printing?</h4>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                </div>
+
+                <div class="faq-box">
+                    <div class="faq-question">
+                        <h4>What Lorem Ipsum is simply dummy text the printing?</h4>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                </div>
+
+                <div class="faq-box">
+                    <div class="faq-question">
+                        <h4>Is travel insurance necessary?</h4>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-image">
+                <img src="faq-answer.png" alt="FAQ Illustration">
+            </div>
+        </div>
+      </section>
+ <!-- contact -->
+      <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>"Have inquiries about our fashion offerings? Need assistance with orders or wholesale partnerships? Reach out to us, and we'll provide the support you require."</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Villa N° 3 avenue oukaimden, 10000 - Rabat</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(212) 537 203 977</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Contact@synyak.com</p>
+                    </div>
+                </div>
+            </div>
+
+         <div class="form-contact">
+                <h3>Send us your query</h3>
+            <div class="contact-form">
+                <form action="#">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+  <!-- footer -->
+    <footer class="footer">
+      <h2>SYNYAK</h2>
+      <section class="footer-container">
+            <div class="footer-logo">
+                <p>Lorem ipsum dolor sit amet consectetur. Mauris sit faucibus tellus arcu imperdiet neque.</p>
+                <div class="social-icons">
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                </div>
+            </div>
+            <div class="link-footer">
+              <div class="footer-links">
+                <h3>COMPANY</h3>
+                  <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Blog</li>
+                  </ul>
+              </div>
+
+              <div class="footer-links">
+                <h3>CATEGORY</h3>
+                  <ul>
+                    <li>Category 1</li>
+                    <li>Category 2</li>
+                    <li>Category 3</li>
+                    <li>Category 4</li>
+                  </ul>
+              </div>
+          
+              <div class="footer-links">
+                <h3>CATEGORY</h3>
+                  <ul>
+                    <li>CATEGORY1</li>
+                    <li>CATEGORY2</li>
+                    <li>CATEGORY3</li>
+                    <li>CATEGORY4</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="newsletter">
+                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="newsletter-box">
+                    <input type="email" placeholder="Your Email Address">
+                    <button><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+      </section>
+      <p class="footer-bottom">©2024 Synyak All rights reserved</p>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>
